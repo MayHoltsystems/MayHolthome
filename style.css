@@ -111,3 +111,71 @@
     color: antiquewhite;
     text-align:center; 
     font-size: 40px;
+  }
+   ul{
+    
+   }
+   
+  a {
+    text-decoration: none;
+    
+  }
+  .controller{
+    display: flex;
+    text-align:center;
+    font-size: 30px;
+    color:black;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:4px;
+  }
+  .button {
+    border-radius: 4px;
+    color: cornsilk;
+    display: block;
+    font-weight: 700;
+    width: 200px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid black;
+    background-color: black;
+  }
+#teamcontainer{
+  display: block;
+}
+  .team{
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding-top:5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .Mike{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  .Jon{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  .closing{
+    display: block;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: auto;
+    background-color: black;
+    width: 1050px;
+    justify-items: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  footer{
+    display: block;
+    float: left;
+    padding: 20px;
+  }
